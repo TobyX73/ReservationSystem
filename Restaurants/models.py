@@ -9,6 +9,5 @@ class Restaurant(models.Model):
     rating = models.FloatField(default=0.0)
     cuisineType = models.CharField(max_length=50)
 
-
     def __str__(self):
         return self.name
